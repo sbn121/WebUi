@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="" />
+	<script scr=""></script>
+</head>
+<body>
+	<div class="call_chatbot">
+		<img src="http://picsum.photos/50" alt="챗봇" />
+	</div>
+	<div class="chatbot_open">
+		<!-- 챗봇이 열림! -->
+	</div>
+	<header>
+		<div class="logo">
+			<a href="#"><img src="img/su_logo.png" alt="수코딩" /></a>
+		</div>
+		<!-- /.logo -->
+		<nav class="main_nav">
+			<ul id="gnb">
+				<li><a href="#">menu 1</a></li>
+				<li><a href="#">menu 2</a></li>
+				<li><a href="#">menu 3</a></li>
+				<li><a href="#">menu 4</a></li>
+			</ul>
+			<!-- /#gnb -->
+		</nav>
+		<!-- /.main_nav -->
+		<div class="login"></div>
+		<!-- /.login -->
+	</header>
+	
+	<div class="carousel">
+		<div class="prev"></div>
+		<!-- /.prev -->
+		<div class="contents">
+			<div class="conn_left"></div>
+			<!-- /.conn_left -->
+			<div class="conn_right"></div>
+			<!-- /.conn_right -->
+			<div class="pager">
+				<ul>
+					<li><a href="">1</a></li>
+					<li><a href="">2</a></li>
+					<li><a href="">3</a></li>
+					<li><a href="">4</a></li>
+					<li><a href="">5</a></li>
+				</ul>
+			</div>
+			<!-- /.pager -->
+		</div>
+		<!-- /.contents -->
+		<div class="next">다음</div>
+		<!-- /.next -->
+	</div>
+	<!-- /.carousel -->
+	
+	section>article*2>.article_title+ul.article_lists>li*3>img.li_img+h2.li_title+p.li_text+hr+div>.fee+.audience|c
+	<footer>
+		<div class="site_title">
+			<img src="http://picsum.photos/30" alt="" />
+			<div class="site_brand"></div>
+			<!-- /.site_brand -->
+		</div>
+		<!-- /.site_title -->
+		<div class="site_vision"></div>
+		<!-- /.site_vision -->
+		<div class="site_link"></div>
+		<!-- /.site_link -->
+		<div class="site_info"></div>
+		<!-- /.site_info -->
+	</footer>
+</body>
+</html>
