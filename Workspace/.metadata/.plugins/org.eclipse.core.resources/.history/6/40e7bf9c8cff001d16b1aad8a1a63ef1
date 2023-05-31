@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.d-none {
+	display: none;
+}
+.call_chatbot {
+	display: none;
+	width: 800px;
+}

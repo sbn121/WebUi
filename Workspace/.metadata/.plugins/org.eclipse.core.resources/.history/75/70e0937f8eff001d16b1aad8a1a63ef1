@@ -1,0 +1,20 @@
+@charset "UTF-8";
+ul, ol {
+	list-style-type: none; /* 불릿기호(●)나 1. 2. 3. 목록기호 없애기 */
+}
+.d-none {
+	display: none;
+}
+.call_chatbot {
+	display: none;
+	width: 800px;
+}
+
+/* header area */
+header {
+	display : flex;
+	align-items: center;
+}
+#gnb {
+	display : flex;
+}
