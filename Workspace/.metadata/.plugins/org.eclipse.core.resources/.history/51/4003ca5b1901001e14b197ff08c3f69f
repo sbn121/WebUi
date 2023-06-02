@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* 공통스타일 */
+body {
+	font-family: 'Nanum Gothic', sans-serif;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+ul, ol {
+	list-style-type: none; /* 불릿기호(●)나 1. 2. 3. 목록기호 없애기 */
+	margin: 0;
+	padding: 0;
+}
+a, a:link {
+	text-decoration: none; /* 밑줄 */
+	color: inherit;     /* 상위 요소로 부터 스타일 상속 */	
+}
+.d-none {
+	display: none;
+}
+
+.call_chatbot {
+	display: none;	
+} 
+
+
+
+
+
+/* header area */
+
+.header_wrap {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#gnb {
+	display: flex;
+	gap: 0 1rem; /* row column */
+}
+
+/* carousel_wrap */
+.carousel_wrap {
+	background-color: #0020a6;
+	height: 400px;
+	overflow: hidden;
+}
+.carousel {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 400px;
+}
+
+.prev, .next {
+	background: white;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	text-align: center; /* text horizontal */
+	line-height: 30px;
+}
+.prev span, .next span {
+	margin: 2px 0 0 0;
+}
+.contents_wrap {	
+	width: 1000px;
+}
+.contents {
+	display: flex;
+	justify-content: center; /* 플렉스 아이템의 (플렉스 컨테이너에 대한) 수평 정렬 */
+	align-items: center; /*플렉스 아이템의 (플렉스 컨테이너에 대한) 수직 정렬 */
+	gap: 0 5rem;
+}
+.conn_left {
+	color: white;
+}
+.pager > ul {
+	display: flex;
+	justify-content: center;
+	gap: 0 .5rem;
+	margin: 1rem 0 0 0; /* 상1rem, 나머지 0 */
+}
+.pager > ul li {
+	font-size: 0;
+	width: 10px;
+	height: 10px;
+	background: white;
+	border-radius: 50%;
+}
+.pager > ul li.active { /* 현재 보여지는 사진과 일치하는 페이지 기호에 강조효과 */
+	background: gray;
+}
+
+/* article */
+.article_wrap {
+	max-width: 1200px;
+	margin: 100px auto;
+}
+.article_title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: bold;
+}
+.article_title::after {
+	content:'';
+	display: block;
+	width: 85%;
+	height: 1px;
+	background-color: grey;
+}
+.article_lists {
+	display: flex;
+	margin: 1rem 0 0 0;
+	gap: 0 2rem;
+}
+.article_lists li {
+	border: 1px solid gray;
+}
+
+.li_contents {
+	padding: 0 0 0 1rem; /* 왼쪽에 여백 추가 */
+}
+.li_title {
+	font-size: .925rem;
+}
+.li_text {
+	color: gray;
+	font-size: .875rem; 
+}
+.li_summary {
+	display:flex;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
